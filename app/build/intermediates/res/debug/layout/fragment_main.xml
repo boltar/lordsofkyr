@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/stats_table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/farms_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_farms" />
+
+    <Button
+        android:id="@+id/collect_taxes_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/collect_taxes" />
+
+    <Button
+        android:id="@+id/military_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_military" />
+
+    <Button
+        android:id="@+id/attack_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attack" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/delete_account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_account_button" />
+    
+</LinearLayout>
+<!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/layout/fragment_main.xml -->

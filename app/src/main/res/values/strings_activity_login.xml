@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="build_farms">Build Farms</string>
+    <string name="build_military">Train Military</string>
+    <string name="attack"><b>Attack!</b></string>
+    
+</resources>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string-array name="races_array">
+        <item>Humans</item>
+        <item>Dwarves</item>
+        <item>Elves</item>
+        <item>Halfings</item>
+    </string-array>
+    <string-array name="starting_gifts_array">
+        <item>100 Gold</item>
+        <item>3 Extra turns</item>
+        <item>10 Footmen</item>
+        <item>5 Farms</item>
+    </string-array>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue">#33b4e5</color>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="dark_grey">#212121</color>
+    <color name="light_grey">#acacac</color>
+    <color name="medium_grey">#333333</color>
+    <color name="offwhite">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffbb33</color>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values/ads_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="AdsAttrs">
+
+        <!--
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+        -->
+        <attr name="adSize" format="string" />
+
+        <!--
+    A comma-separated list of the supported ad sizes. The sizes must be one of
+    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+        -->
+        <attr name="adSizes" format="string" />
+
+        <!-- The ad unit ID. -->
+        <attr name="adUnitId" format="string" />
+    </declare-styleable>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values/maps_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="MapAttrs">
+        <attr name="mapType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="satellite" value="2" />
+            <enum name="terrain" value="3" />
+            <enum name="hybrid" value="4" />
+        </attr>
+        <attr name="cameraBearing" format="float" />
+        <attr name="cameraTargetLat" format="float" />
+        <attr name="cameraTargetLng" format="float" />
+        <attr name="cameraTilt" format="float" />
+        <attr name="cameraZoom" format="float" />
+        <attr name="uiCompass" format="boolean" />
+        <attr name="uiRotateGestures" format="boolean" />
+        <attr name="uiScrollGestures" format="boolean" />
+        <attr name="uiTiltGestures" format="boolean" />
+        <attr name="uiZoomControls" format="boolean" />
+        <attr name="uiZoomGestures" format="boolean" />
+        <attr name="useViewLifecycle" format="boolean" />
+        <attr name="zOrderOnTop" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values/version.xml -->
+    <eat-comment />
+
+    <integer name="google_play_services_version">4323000</integer>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/integers.xml -->
+    <eat-comment />
+
+    <integer name="single_line">1</integer>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_main.xml -->
+    <eat-comment />
+
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="action_preferences"><b>Preferences</b></string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_main.xml -->
+    <eat-comment />
+
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="additional_farms">Additional Farms</string>
+    <string name="announce_fail">CONNECTION FAILED</string>
+    <string name="announce_success">YOU HAVE JOINED</string>
+    <string name="app_name">Lords of Kyr</string>
+    <string name="archers">Archers</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="attack"><b>Attack!</b></string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="auth_client_needs_enabling_title">      An application requires Google Play Services to be enabled.</string>
+    <string name="auth_client_needs_installation_title">      An application requires installation of Google Play Services.</string>
+    <string name="auth_client_needs_update_title">      An application requires an update for Google Play Services.</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="auth_client_using_bad_version_title">      An application attempted to use a bad version of Google Play Services.</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="build_farms">Build Farms</string>
+    <string name="build_military">Train Military</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="buy_army">Train Military</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_main.xml -->
+    <eat-comment />
+
+    <string name="buy_farms">Buy Farms</string>
+    <string name="cancel">Cancel</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="collect_taxes">Collect Taxes</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
+    <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string name="common_google_play_services_install_title" msgid="7215213145546190223">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button" msgid="6556509956452265614">Update</string>
+    <string name="common_google_play_services_update_text" msgid="9053896323427875356">This app won\'t run unless you update Google Play services.</string>
+    <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="create_char_name">Name of your Empire</string>
+    <string name="create_char_race">Race</string>
+    <string name="create_char_starting_gift">Starting Gift</string>
+    <string name="create_char_submit">Create Your Empire!</string>
+    <string name="create_char_title">Create Your Realm</string>
+    <string name="current_farms">Current Farms</string>
+    <string name="current_gold">Current Gold</string>
+    <string name="delete_account_button">Delete Account</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="empty_string"></string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_main.xml -->
+    <eat-comment />
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="hello_world">Hello world!</string>
+    <string name="intro_1_dscrp">Welcome to the Mobile Backend Starter sample guestbook Android app. This simple app allows users to send messages to other instances of the app running on Android or iOS devices. Play with this application to get started.  There is no additional backend coding required.</string>
+    <string name="intro_1_title">Guest Book Sample App</string>
+    <string name="intro_2_dscrp">The guestbook app uses the Mobile Backend Starter for messaging and user authentication. The backend also provides a cloud datastore, with public and private objects, and a subscription service to give your apps real time interactivity.</string>
+    <string name="intro_2_title">Mobile Backend Starter</string>
+    <string name="intro_3_dscrp">Play around with this app and the source code to become familiar with the Mobile Backend Starter. When you are ready, replace the Guestbook sample code with your own app or game code.</string>
+    <string name="intro_3_title">Now it’s your turn</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="location_client_powered_by_google">Powered by Google</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_main.xml -->
+    <eat-comment />
+
+    <string name="login_progress_signing_in">Signing in…</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="max">max</string>
+    <string name="menu_clear_chat">Clear Chat</string>
+    <string name="no_messages">No messages yet</string>
+    <string name="population">Population</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_main.xml -->
+    <eat-comment />
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="send">Send</string>
+    <string name="send_message">sendMessage</string>
+    <string name="skip_intro">Skip intro next time</string>
+    <string name="switch_account">Switch Account</string>
+    <string name="title_activity_army">ArmyActivity</string>
+    <string name="title_activity_create_realm">Create Your Realm</string>
+    <string name="title_activity_farms">FarmsActivity</string>
+    <string name="title_activity_gold">GoldActivity</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="title_activity_login">Sign in</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_stats">Realm Stats</string>
+    <string name="title_section1">Overview</string>
+    <string name="title_section2">Other Realms</string>
+    <string name="title_section3">Rent me</string>
+    <string name="view_intro">View Intro</string>
+    <!-- From: file:/Users/tony/Lords%20of%20Kyr/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AnnounceText" parent="@style/BaseText">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="BaseText">
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="DisplayText" parent="@style/BaseText">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="IntroDscrpText" parent="@style/BaseText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="IntroTitleText" parent="@style/BaseText">
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="PostText" parent="@style/BaseText">
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SignatureText" parent="@style/BaseText">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

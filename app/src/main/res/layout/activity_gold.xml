@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="Collect Taxes"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GoldActivity" >
+
+    <TextView
+        android:id="@+id/total_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/current_gold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/tv_cur_gold"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/total_cost"
+	    android:layout_below="@+id/total_cost"
+	    android:text="cur_gold"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/tv_sb_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_cur_gold"
+        android:layout_below="@+id/tv_cur_gold"
+        android:layout_marginTop="16dp"
+        android:text="@string/population"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_cur_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_sb_title"
+        android:layout_below="@+id/tv_sb_title"
+        android:text="cur_pop"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/cancel_taxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/collect_taxes"
+        android:layout_alignBottom="@+id/collect_taxes"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/collect_taxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/collect_taxes" />
+
+    <TextView
+        android:id="@+id/gold_update_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_cur_pop"
+        android:layout_below="@+id/tv_cur_pop"
+        android:layout_marginTop="54dp"
+        android:text="The x people of your empire gives you y gold this turn."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

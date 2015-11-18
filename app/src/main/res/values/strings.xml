@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lords of Kyr</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="switch_account">Switch Account</string>
+    <string name="view_intro">View Intro</string>
+    <string name="skip_intro">Skip intro next time</string>
+    <string name="announce_success">YOU HAVE JOINED</string>
+    <string name="announce_fail">CONNECTION FAILED</string>
+    <string name="send">Send</string>
+    <string name="send_message">sendMessage</string>
+    <string name="empty_string"></string>
+    <string name="no_messages">No messages yet</string>
+    <string name="intro_1_title">Guest Book Sample App</string>
+    <string name="intro_1_dscrp">Welcome to the Mobile Backend Starter sample guestbook Android app. This simple app allows users to send messages to other instances of the app running on Android or iOS devices. Play with this application to get started.  There is no additional backend coding required.</string>
+    <string name="intro_2_title">Mobile Backend Starter</string>
+    <string name="intro_2_dscrp">The guestbook app uses the Mobile Backend Starter for messaging and user authentication. The backend also provides a cloud datastore, with public and private objects, and a subscription service to give your apps real time interactivity.</string>
+    <string name="intro_3_title">Now it’s your turn</string>
+    <string name="intro_3_dscrp">Play around with this app and the source code to become familiar with the Mobile Backend Starter. When you are ready, replace the Guestbook sample code with your own app or game code.</string>
+    <string name="create_char_title">Create Your Realm</string>
+    <string name="create_char_name">Name of your Empire</string>
+    <string name="create_char_race">Race</string>
+    <string name="create_char_submit">Create Your Empire!</string>
+    <string name="create_char_starting_gift">Starting Gift</string>
+    <string name="menu_clear_chat">Clear Chat</string>
+
+    <string-array name="races_array">
+        <item>Humans</item>
+        <item>Dwarves</item>
+        <item>Elves</item>
+        <item>Halfings</item>
+    </string-array>
+    <string-array name="starting_gifts_array">
+        <item>100 Gold</item>
+        <item>3 Extra turns</item>
+        <item>10 Footmen</item>
+        <item>5 Farms</item>
+    </string-array>
+
+    <string name="title_activity_create_realm">Create Your Realm</string>
+    <string name="title_activity_stats">Realm Stats</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Overview</string>
+    <string name="title_section2">Other Realms</string>
+    <string name="title_section3">Rent me</string>
+    <string name="title_activity_farms">FarmsActivity</string>
+    <string name="current_farms">Current Farms</string>
+    <string name="additional_farms">Additional Farms</string>
+    <string name="delete_account_button">Delete Account</string>
+    <string name="collect_taxes">Collect Taxes</string>
+    <string name="title_activity_gold">GoldActivity</string>
+    <string name="current_gold">Current Gold</string>
+    <string name="population">Population</string>
+    <string name="title_activity_army">ArmyActivity</string>
+    <string name="archers">Archers</string>
+    <string name="max">max</string>
+    <string name="buy_army">Train Military</string>
+
+</resources>
